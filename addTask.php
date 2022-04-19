@@ -51,7 +51,7 @@ include_once 'header.php';
                     <br>
                     <input type="hidden" name="uye_id" value="<?php echo $_SESSION['uye_id'] ?>">
                     <input type="hidden" name="haber_durum" value="1">
-                    <button type="submit" name="uyeekle" id="addUserBtn" class="btn btn-primary btn-lg btn-block">Haberi Ekle</button>
+                    <button type="submit" name="uyeekle" id="addUserBtn" class="btn btn-primary btn-lg btn-block">Olay Ekle</button>
                 </form>
             </div>
 

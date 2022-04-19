@@ -1,6 +1,6 @@
 <?php
 ob_start();
-$title = 'Olay Düzenleme Paneli';
+$title = 'Görevlendirme Düzenleme Paneli';
 include_once 'mainClass.php';
 include_once 'header.php';
 if (isset($_GET["taskId"])) {
@@ -46,7 +46,7 @@ if (isset($_GET["taskId"])) {
     <div class="col-12 mt-5">
         <div class="card">
             <div class="card-body">
-                <h4 class="header-title">Olay Düzenle</h4>
+                <h4 class="header-title">Görevlendirme Düzenle</h4>
                 <form method="POST" action="process.php?action=editAssignment&haber_id=<?php echo $getTask["gorevlendirme_id"]; ?>" id="addUserForm">
                     <div id="userAddAlert"></div>
                     <div class="form-group">
@@ -167,7 +167,7 @@ if (isset($_GET["taskId"])) {
                         <input name="gorev_bitir" id="datepicker2">
                     </div>
                     <input type="hidden" name="uye_id" value="<?php echo $_SESSION['uye_id'] ?>">
-                    <button type="submit" name="uyeekle" id="addUserBtn" class="btn btn-primary btn-lg btn-block">Haberi Düzenle</button>
+                    <button type="submit" name="uyeekle" id="addUserBtn" class="btn btn-primary btn-lg btn-block">Kaydı Düzenle</button>
                 </form>
             </div>
 

@@ -104,7 +104,7 @@ if (isset($_GET["taskId"])) {
                         } ?>
                     </select>
                     <input type="hidden" name="uye_id" value="<?php echo $_SESSION['uye_id'] ?>">
-                    <button type="submit" name="uyeekle" id="addUserBtn" class="btn btn-primary btn-lg btn-block">Haberi Düzenle</button>
+                    <button type="submit" name="uyeekle" id="addUserBtn" class="btn btn-primary btn-lg btn-block">Düzenle</button>
                 </form>
             </div>
 

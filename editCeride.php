@@ -55,7 +55,7 @@ if (isset($_GET["taskId"])) {
                         <input class="form-control" required="" name="haber_baslik" value="<?php echo strip_tags($getTask["takip_islem"]); ?>" type="text" id="example-text-input">
                     </div>
                     <input type="hidden" name="uye_id" value="<?php echo $_SESSION['uye_id'] ?>">
-                    <button type="submit" name="uyeekle" id="addUserBtn" class="btn btn-primary btn-lg btn-block">Haberi Düzenle</button>
+                    <button type="submit" name="uyeekle" id="addUserBtn" class="btn btn-primary btn-lg btn-block">Düzenle</button>
                 </form>
             </div>
 
