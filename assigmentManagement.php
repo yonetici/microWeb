@@ -34,7 +34,7 @@ include_once 'header.php';
         ?>
         <div class="card my-2 border-success">
             <div class="card-header bg-success text-white">
-                <a href="addAssignment.php"><button type="button" class="btn btn-success float-right">YENİ EKLE</button></a><a href="actions.php?export=excel&tablo=gorev"><button type="button" class="btn btn-success float-right"><i class="fa fa-download" aria-hidden="true"></i></button></a><h4 class="m-1">Olaylar</h4>
+                <a href="addAssignment.php"><button type="button" class="btn btn-success float-right">YENİ EKLE</button></a><a href="actions.php?export=excel&tablo=gorev"><button type="button" class="btn btn-success float-right"><i class="fa fa-download" aria-hidden="true"></i></button></a><h4 class="m-1">Görevlendirmeler</h4>
             </div>
             <div class="card-body">
                 <div class="table-responsive" id="showAllNews">

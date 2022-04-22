@@ -35,7 +35,7 @@ if((!isset($_GET["dogrulama"])) && isset($_SESSION['username'])) {
     <meta name="author" content="Rıdvan BİLGİN">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>HaberMerkezi - Yönetim Paneli</title>
+    <title>AFAD MicroWeb - Yönetim Paneli</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style type="text/css">

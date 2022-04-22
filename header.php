@@ -63,10 +63,10 @@ $ekipBilgileri = ["1. Acil Müdahale Ekibi", "2. Acil Müdahale Ekibi", "3. Acil
                 <a href="taskManagement.php" class="list-group-item text-light admin-link <?= (basename($_SERVER['PHP_SELF']) == "taskManagement.php")?"nav-active":""; ?>"><i class="fas fa-sticky-note"></i>&nbsp;&nbsp;Olay Yönetimi</a>
                 <?php } ?>
                 <?php     if ($admin->checkUserStatus($_SESSION['uye_id'])==2 || $admin->checkUserStatus($_SESSION['uye_id'])==5) { ?>
-                <a href="assigmentManagement.php" class="list-group-item text-light admin-link <?= (basename($_SERVER['PHP_SELF']) == "taskManagement.php")?"nav-active":""; ?>"><i class="fa fa-random" aria-hidden="true"></i>  Görev Yönetimi</a>
+                <a href="assigmentManagement.php" class="list-group-item text-light admin-link <?= (basename($_SERVER['PHP_SELF']) == "assigmentManagement.php")?"nav-active":""; ?>"><i class="fa fa-random" aria-hidden="true"></i>  Görev Yönetimi</a>
                 <?php } ?>
                 <?php     if ($admin->checkUserStatus($_SESSION['uye_id'])==2 || $admin->checkUserStatus($_SESSION['uye_id'])==4) { ?>
-                <a href="itemManagement.php" class="list-group-item text-light admin-link <?= (basename($_SERVER['PHP_SELF']) == "videoNews.php")?"nav-active":""; ?>"><i class="fa fa-database" aria-hidden="true"></i>  Malzeme Yönetimi</a>
+                <a href="itemManagement.php" class="list-group-item text-light admin-link <?= (basename($_SERVER['PHP_SELF']) == "itemManagement.php")?"nav-active":""; ?>"><i class="fa fa-database" aria-hidden="true"></i>  Malzeme Yönetimi</a>
                 <?php } ?>
 <?php     if ($admin->checkUserStatus($_SESSION['uye_id'])==2) {
 ?>
